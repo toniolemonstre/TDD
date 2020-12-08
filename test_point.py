@@ -7,10 +7,10 @@ class Point:
         self.y = y
 
     def distance(self, other_point):
-        return 0
+        #return 0
         #return abs(point1.y - point2.y)
         #return abs(point1.x - point2.x)
-        #return ((other_point.x-self.x)**2+(other_point.y-self.y)**2)**0.5
+        return ((other_point.x-self.x)**2+(other_point.y-self.y)**2)**0.5
 
 class Test(unittest.TestCase):
 
